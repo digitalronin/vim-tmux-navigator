@@ -27,9 +27,9 @@ if $TMUX != ''
   endfunction
 
   " navigate between split windows/tmux panes
-  nmap <silent> <c-j> :call <SID>TmuxWinCmd('j')<cr>
-  nmap <silent> <c-k> :call <SID>TmuxWinCmd('k')<cr>
-  nmap <silent> <c-h> :call <SID>TmuxWinCmd('h')<cr>
-  nmap <silent> <c-l> :call <SID>TmuxWinCmd('l')<cr>
-  nmap <silent> <c-\> :call <SID>TmuxWinCmd('p')<cr>
+  nmap <silent> <c-w>j :call <SID>TmuxWinCmd('j')<cr>
+  nmap <silent> <c-w>k :call <SID>TmuxWinCmd('k')<cr>
+  nmap <silent> <c-w>h :call <SID>TmuxWinCmd('h')<cr>
+  nmap <silent> <c-w>l :call <SID>TmuxWinCmd('l')<cr>
+  nmap <silent> <c-w>\ :call <SID>TmuxWinCmd('p')<cr>
 end
